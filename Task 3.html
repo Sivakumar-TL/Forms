@@ -9,32 +9,45 @@
     <h1>Product Purchase Form</h1>
     <center>
     <form action="" >
-        <div>
-            <label for="name">Product Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter Your Product Name" required>
-        </div>
+        <table>
 
+     <tr>
         <div>
-            <label for="email"> Buyer's Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+           <td><label for="name">Product Name</label></td> 
+           <td><input type="text" id="name" name="name" placeholder="Enter Your Product Name" required></td> 
         </div>
+    </tr>
+
+    <tr>
+        <div>
+           <td> <label for="email"> Buyer's Email Address</label> </td>
+           <td> <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required> </td>
+        </div>
+    </tr>
 
           
+    <tr>
         <div>
-            <label for="number">Quantity</label>
-            <input type="number" id="number" name="number" placeholder="Enter Your Number" required>
+           <td> <label for="number">Quantity</label></td>
+           <td> <input type="number" id="number" name="number" placeholder="Enter Your Number" required></td>
         </div>
+    </tr>
 
         
+    <tr>
         <div>
-            <label for="date">Delivery Date</label>
-            <input type="date" id="date" name="date" min="2024-08-13" max="2024-08-23" >
+          <td> <label for="date">Delivery Date</label> </td> 
+          <td> <input type="date" id="date" name="date" min="2024-08-13" max="2024-08-23" > </td> 
         </div>
+    </tr>
         <br>
 
-        <button type="submit">Submit</button>
+    <tr>
+        <td><button type="submit">Submit</button></td>
+    </tr> 
 
     </form>
 </center>
+</table>
 </body>
 </html>

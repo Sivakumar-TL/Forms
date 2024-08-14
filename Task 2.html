@@ -10,30 +10,40 @@
     <form action="">
 
         <center>
-        <div>
-            <label for="name">Username</label>
-            <input type="text" id="name" name="name" placeholder="Enter Your Name">
-         </div>
-
+            <table>
+        <tr>
           <div>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter Your Email Address">
+          <td>  <label for="name">Username</label></td>
+          <td>  <input type="text" id="name" name="name" placeholder="Enter Your Name"></td>
           </div>
+        </tr> 
 
+        <tr>
           <div>
-              <label for="date">Appointment Date</label>
-              <input type="date" id="date" name="date" min="2024-08-13" max="2024-08-23">
+            <td><label for="email">Email Address</label></td>
+            <td><input type="email" id="email" name="email" placeholder="Enter Your Email Address"></td>
           </div>
+        </tr>
 
+         <tr>
           <div>
-              <label for="number">Contact Number</label>
-              <input type="tel" id="number" name="number" placeholder="Enter Your Number">
+             <td> <label for="date">Appointment Date</label></td>
+             <td> <input type="date" id="date" name="date" min="2024-08-13" max="2024-08-23"></td>
           </div>
+         </tr>
+
+         <tr>
+          <div>
+            <td> <label for="number">Contact Number</label></td>
+            <td> <input type="tel" id="number" name="number" placeholder="Enter Your Number"></td>
+          </div>
+         </tr>
           <br>
 
-          <button type="submit">Submit</button>
+         <tr><td><button type="submit">Submit</button></td></tr> 
     </form>
 </center>
+</table>
         
 </body>
 </html>

@@ -9,32 +9,41 @@
     <h1>Billing Information Form</h1>
     <form action="">
       <center>
-        
+        <table>
+
+         <tr>
            <div>
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" placeholder="Enter Your Name">
+           <td> <label for="username">Username</label></td>
+           <td>  <input type="text" id="username" name="username" placeholder="Enter Your Name"></td>
           </div>
+        </tr>
        
+         <tr>
+           <div>
+           <td> <label for="email">Email Address</label></td>
+           <td><input type="email" id="email" name="email" placeholder="Enter Your Email Address"></td>
+           </div>
+        </tr>
 
-          <div>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter Your Email Address">
-          </div>
+        <tr>
+           <div>
+             <td> <label for="num">Billing Amount</label></td>
+             <td> <input type="number" id="num" name="num" min="1" max="1001" step="100" placeholder="Enter Your Amount"></td>
+           </div>
+        </tr>
 
+        <tr>
           <div>
-              <label for="num">Billing Amount</label>
-              <input type="number" id="num" name="num" min="1" max="1001" step="100" placeholder="Enter Your Amount">
+             <td> <label for="date">Billing Date</label></td>
+             <td> <input type="date" id="date" name="date" min="2024-08-11" max="2028-08-11"></td>
           </div>
-
-          <div>
-              <label for="date">Billing Date</label>
-              <input type="date" id="date" name="date" min="2024-08-11" max="2028-08-11">
-          </div>
+        </tr>
           <br>
 
-          <button type="submit">Submit</button>
+          <tr><td><button type="submit">Submit</button></td></tr>
     </form>
 </center>
+</table>
         
 </body>
 </html>

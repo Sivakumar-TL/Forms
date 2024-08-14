@@ -8,40 +8,58 @@
 <body>
     <center>
     <form action="../response.html" method="get">
+        <table >
+            <tr>
         <div>
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username">
+           <td> <label for="username">Username</label></td> 
+           <td> <input type="text" name="username" id="username" placeholder="Enter Your Name"></td> 
         </div>
+           </tr>
 
+         <tr>
+         <div>
+         <td> <label for="email">Email</label></td> 
+         <td> <input type="email" name="email" id="email" placeholder="siva@123" required></td> 
+         </div>
+         </tr>
+         
+         <tr>
+         <div>
+         <td>  <label for="age">Age</label></td> 
+         <td>   <input type="age" name="age" id="age" min="18" max="32"></td> 
+         </div>
+         </tr>
+         
+         <tr>
+         <div>
+         <td> <label for="date">Date Of Birth</label></td> 
+         <td> <input type="date" name="date" id="date" min="2024-08-11" max="2025-08-11"></td> 
+         </div>
+    </tr>
+        
+    <tr>
         <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="siva@123" required>
+          <td><label for="password">Password</label></td>  
+          <td>  <input type="password" name="password" id="password"></td>  
         </div>
-
-        <div>
-            <label for="age">Age</label>
-            <input type="age" name="age" id="age" min="18" max="32">
-        </div>
-
-        <div>
-            <label for="date">Date Of Birth</label>
-            <input type="date" name="date" id="date" min="2024-08-11" max="2025-08-11">
-        </div>
-
-        <div>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password">
-        </div>
+    </tr>
         <br>
 
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+       <td>  <button type="submit">Submit</button></td>  
+       <td> <button type="reset">Reset</button></td>  
     </form>
     <br>
+   
 
-    <a href="../Task 1.html">Task 1</a> <br><br>
-    <a href="../Task 2.html">Task 2</a> <br><br>
-    <a href="../Task 3.html">Task 3</a>
+
+   <table border="1" cellpadding="3">
+   <th colspan="2">Other Tasks</th>
+   <tr><td><a href="../Task 1.html" target="_blank">Task 1-- Billing Information Form</a> <br></td></tr> 
+   <tr><td><a href="../Task 2.html" target="_blank">Task 2-- Appointment Scheduling Form</a> <br></td></tr>  
+   <tr><td><a href="../Task 3.html" target="_blank">Task 3-- Product Purchase Form</a></td></tr> 
+
     </center>
+</table>
+</table>
 </body>
 </html>
